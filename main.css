@@ -1,0 +1,12 @@
+body {
+    background-image: url(https://www.tokkoro.com/picsup/2966240-wizard-artwork-fantasy-art-digital-art-magic-colorful___fantasy-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#myForm {
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    margin-top: 50px;
+    width: 300px
+}
