@@ -25,6 +25,13 @@ button.addEventListener("click", function() {
     formPrinter();
 } )
 
+let studentArr = [
+    {
+    studentname: "" ,
+    studentHouse: ""
+    } ,
+]
+
 document.getElementById("myForm").addEventListener("click", function(event) {
     const id = event.target.id;
     if (id === "sort_btn") {
