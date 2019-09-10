@@ -26,17 +26,25 @@ button.addEventListener("click", function() {
 } )
 
 let studentArr = [
-    {
-    studentname: "" ,
-    studentHouse: ""
-    } ,
+    
 ]
+
+const randomNumber = () => {
+    return Math.floor((Math.random() * 4));
+}
+
+
 
 document.getElementById("myForm").addEventListener("click", function(event) {
     const id = event.target.id;
     if (id === "sort_btn") {
         let inputName = document.getElementById("InputName1").value;
-        console.log(`${inputName}`)
+        const newStudent = {
+            studentName: inputName ,
+            studentHouse: "?"
+            } 
+        studentArr.push(newStudent);
+        console.log(studentArr);
     }
 
 } )
