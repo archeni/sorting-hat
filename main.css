@@ -10,3 +10,10 @@ body {
     margin-top: 50px;
     width: 300px
 }
+
+#myCards {
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    margin-top: 50px;
+    width: 300px
+}
